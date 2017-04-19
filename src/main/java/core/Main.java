@@ -54,7 +54,7 @@ public class Main {
         commandHandler.commands.put("say", new cmdSay());
         commandHandler.commands.put("clear", new cmdClear());
 
-        //test
+        //test1
 
         try {
             JDA jda = builder.buildBlocking();
