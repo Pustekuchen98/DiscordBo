@@ -54,6 +54,8 @@ public class Main {
         commandHandler.commands.put("say", new cmdSay());
         commandHandler.commands.put("clear", new cmdClear());
 
+        //tes
+
         try {
             JDA jda = builder.buildBlocking();
         } catch (LoginException e) {
