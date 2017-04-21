@@ -20,7 +20,7 @@ public class reconnectListener extends ListenerAdapter {
 
         for(Guild g : event.getJDA().getGuilds()) {
             g.getTextChannels().get(0).sendMessage(
-                    "Hey guys! I'm back again!"
+                    "Beep Beep Beep... Bot wurde neugestartet."
             ).queue();
         }
     }
